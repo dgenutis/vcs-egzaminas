@@ -1,0 +1,103 @@
+.car-detail-container {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 20px;
+  border-bottom: 1px solid rgb(198, 197, 197);
+}
+.CarBox {
+  margin-left: 40px;
+  width:800px;
+ 
+}
+
+.car-detail-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.reservationForm {
+  height: 250px;
+}
+
+.reservationForm {
+  height: 350px;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.reservationForm {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.reservationForm label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.reservationForm input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#costId {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.svgThree {
+  max-width: 250px;
+  color: rgb(27, 27, 27);
+}
+
+.description {
+  max-width: 800px;
+  margin: 20px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  padding: 5px;
+  color: #494949;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+
+@media screen and (max-width:1180px){
+  .car-detail-container{
+      display: flex;
+      flex-direction: column;
+  }
+  .CarBox {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .carBoxTextOne {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carBoxTextTwo {
+    padding-top: 13px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bothBoxes {
+    display: flex;
+  }
+  
+}

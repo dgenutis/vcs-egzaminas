@@ -1,0 +1,22 @@
+.auth-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  
+  .input-field-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 10px;
+  }
+ 
+  .input-field-one::placeholder {
+    text-align: center;
+  }
+
+
+  
